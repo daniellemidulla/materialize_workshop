@@ -1,1 +1,11 @@
+/* style.css */
+/* This file contains all of my styles for the materialize workshop on 4/13 */
 
+.circle {
+  height: 64px;
+  width: auto;
+}
+
+nav .logo {
+  background-color: white;
+}
