@@ -61,17 +61,17 @@ circle {
 }
 ```
 
-Now your logo looks too crammed in the corner right? Let's center this logo at the top by adding to the `<a>` tag. The class `brand-logo` will center itself on medium and down the screens but you can also add `center` class if you want the logo to be always centered. 
+Now your logo looks too crammed in the corner right? Let's center this logo at the top by adding to the `<a>` tag. The class `brand-logo` will center itself on medium and down the screens but you can also add `center` class if you want the logo to be always centered.
 
 Your logo should appear something like this:
 
 ![alt text](./img/logo_sc2.png)
 
-🚀 Now, let's create the right menu items and dropdown by using an unordered list. In the `<ul>` tag add the class: `right hide-on-med-and-down` which will create a right oriented menu from the `li` tags. 
+🚀 Now, let's create the right menu items and dropdown by using an unordered list. In the `<ul>` tag add the class: `right hide-on-med-and-down` which will create a right oriented menu from the `li` tags.
 
 On the Assignments item, add `dropdown-button` to the `<a>` tag's class to indicate that it will be a dropdown button. Also add the attribute `data-activates="dropdown"`. This will identify the dropdown content defined below - the `dropdown` is like an `id`. Lastly, on the inner `<i>` tag set class to `material-icons right` to create the little arrow icon. You can experiment with this.
 
-The navbar looks good, but there is no content defined for the dropdown. Let's fix that! 
+The navbar looks good, but there is no content defined for the dropdown. Let's fix that!
 
 For the `ul` tag (in the section after `</nav>`) set the id to `dropdown` to connect the dropdown button from the menu. Also set the class to `dropdown-content` to define the `ul` element as dropdown content. To create the horizontal dividers, you can transform `li` elements by setting their class to `divider`.
 
@@ -151,12 +151,12 @@ It's not working!!! Why?! It's beacause we still have to initialize - add the fo
 ## And You Are Done!
 
 At this point, you should have a decent looking webpage that includes some really interesting features that would be difficult to implement from scratch. Here's a checklist for what you should have:
-- [ ] added references to Materialize styling
-- [ ] added logo to top of page
-- [ ] nav bar drop-down section
-- [ ] styled some buttons
-- [ ] added a modal popover to the modal button
-- [ ] added simple parallax sections
+- [x] added references to Materialize styling
+- [x] added logo to top of page
+- [x] nav bar drop-down section
+- [x] styled some buttons
+- [x] added a modal popover to the modal button
+- [x] added simple parallax sections
 
 ## Credits
 
